@@ -1194,7 +1194,7 @@ It&#8217;s possible to annotate a non-private static method with an interceptor 
 <pre class="highlightjs highlight"><code data-lang="java" class="language-java hljs">class Services {
 
   @Logged <i class="conum" data-value="1"></i><b>(1)</b>
-  static BigDecimal computePrice(long amout) { <i class="conum" data-value="2"></i><b>(2)</b>
+  static BigDecimal computePrice(long amount) { <i class="conum" data-value="2"></i><b>(2)</b>
     BigDecimal price;
     // Perform computations...
     return price;
@@ -1285,7 +1285,7 @@ Each interceptor instance associated with a contextual instance of an intercepte
 @ApplicationScoped
 class SharedService {
 
-  void addAmount(BigDecimal amout) {
+  void addAmount(BigDecimal amount) {
     // ...changes some internal state of the bean
   }
 

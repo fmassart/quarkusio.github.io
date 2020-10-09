@@ -326,6 +326,28 @@ quarkus.kubernetes.name=todo-rest
 quarkus.kubernetes.version=1.0-rc.1</code></pre>
 </div>
 </div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>As is described in detail in the <a href="#openshift">OpenShift</a> section, customizing OpenShift (or Knative) properties is done in the same way, but replacing
+<code>kubernetes</code> with <code>openshift</code> (or <code>knative</code>). The previous example for OpenShift would look like this:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">quarkus.openshift.part-of=todo-app
+quarkus.openshift.name=todo-rest
+quarkus.openshift.version=1.0-rc.1</code></pre>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
 <div class="paragraph">
 <p>The labels in generated resources will look like:</p>
 </div>
@@ -532,6 +554,26 @@ quarkus.kubernetes.env.mapping.foo.with-key=keyName</code></pre>
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-none hljs">quarkus.kubernetes.env.fields.foo=metadata.name</code></pre>
 </div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>As is described in detail in the <a href="#openshift">OpenShift</a> section, customizing OpenShift properties is done in the same way, but replacing
+<code>kubernetes</code> with <code>openshift</code>. The previous example for OpenShift would look like this:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">quarkus.openshift.env.fields.foo=metadata.name</code></pre>
+</div>
+</div>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect4">
@@ -2243,7 +2285,7 @@ spec:
       - env:
         - name: "FOO" <i class="conum" data-value="3"></i><b>(3)</b>
           value: "BAR"
-        image: "&lt;&lt;yourDockerUsernmae&gt;&gt;/kubernetes-quickstart:1.0-SNAPSHOT" <i class="conum" data-value="4"></i><b>(4)</b>
+        image: "&lt;&lt;yourDockerUsername&gt;&gt;/kubernetes-quickstart:1.0-SNAPSHOT" <i class="conum" data-value="4"></i><b>(4)</b>
         imagePullPolicy: "Always"
         name: "kubernetes-quickstart"
         ports:

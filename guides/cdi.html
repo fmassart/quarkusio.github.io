@@ -90,7 +90,7 @@
 <li><a href="#q-you-talked-about-some-qualifiers">8. <em>Q: You talked about some qualifiers?</em></a></li>
 <li><a href="#q-looks-good-what-is-the-bean-scope">9. <em>Q: Looks good. What is the bean scope?</em></a></li>
 <li><a href="#q-what-scopes-can-i-actually-use-in-my-quarkus-application">10. <em>Q: What scopes can I actually use in my Quarkus application?</em></a></li>
-<li><a href="#client_proxies">11. <em>Q: I don&#8217;t undestand the concept of client proxies.</em></a></li>
+<li><a href="#client_proxies">11. <em>Q: I don&#8217;t understand the concept of client proxies.</em></a></li>
 <li><a href="#q-ok-you-said-that-there-are-several-kinds-of-beans">12. <em>Q: OK. You said that there are several kinds of beans?</em></a></li>
 <li><a href="#q-ok-injection-looks-cool-what-other-services-are-provided">13. <em>Q: OK, injection looks cool. What other services are provided?</em></a>
 <ul class="sectlevel2">
@@ -265,7 +265,7 @@ This is very useful because your application fails fast whenever the container i
 <div class="paragraph">
 <p>A: Yes, you can.
 In fact, in CDI the "setter injection" is superseded by more powerful <a href="https://docs.jboss.org/cdi/spec/2.0/cdi-spec.html#initializer_methods" target="_blank" rel="noopener">initializer methods</a>.
-Intializers may accept multiple parameters and don&#8217;t have to follow the JavaBean naming conventions.</p>
+Initializers may accept multiple parameters and don&#8217;t have to follow the JavaBean naming conventions.</p>
 </div>
 <div class="listingblock">
 <div class="title">Initialized and Constructor Injection Example</div>
@@ -414,7 +414,7 @@ Every bean has exactly one scope.
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>@javax.enterprise.context.SessionScoped</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">This scope is backed by an <code>javax.servlet.http.HttpSession</code> object. It&#8217;s only available if the <code>quarkus-undertow</code> extension is used.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">This scope is backed by a <code>javax.servlet.http.HttpSession</code> object. It&#8217;s only available if the <code>quarkus-undertow</code> extension is used.</p></td>
 </tr>
 </tbody>
 </table>
@@ -433,7 +433,7 @@ There can be other custom scopes provided by Quarkus extensions. For example, <c
 </div>
 </div>
 <div class="sect1">
-<h2 id="client_proxies"><a class="anchor" href="#client_proxies"></a>11. <em>Q: I don&#8217;t undestand the concept of client proxies.</em></h2>
+<h2 id="client_proxies"><a class="anchor" href="#client_proxies"></a>11. <em>Q: I don&#8217;t understand the concept of client proxies.</em></h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Indeed, the <a href="https://docs.jboss.org/cdi/spec/2.0/cdi-spec.html#client_proxies" target="_blank" rel="noopener">client proxies</a> could be hard to grasp but they provide some useful functionality.
