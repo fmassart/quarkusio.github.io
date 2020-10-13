@@ -5,7 +5,21 @@
         <title>Quarkus</title>
         <link>https://quarkus.io</link>
         <description>Quarkus: Supersonic Subatomic Java</description>
-        <lastBuildDate>Mon, 12 Oct 2020 09:08:52 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2020 09:09:58 +0000</lastBuildDate>
+        
+        <item>
+            <title>Mutiny - How does retry... retries?</title>
+            <link>
+                https://quarkus.io/blog/uni-retry/
+            </link>
+            <description>
+                Last week, David, a Quarkus user, asked me about retrying an asynchronous operation. David has a picky remote HTTP service, which sometimes misbehaves. Easy answer! Just do: uni.onFailure().retry().atMost(x). But, David is curious, and asked me a second question: how does retry work? Well, that’s simple; it just retries&#8230;&#8203; As you...
+            </description>
+            <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+            <guid>
+                https://quarkus.io/blog/uni-retry/
+            </guid>
+        </item>
         
         <item>
             <title>Quarkus 1.8.3.Final released - Bugfixes</title>
@@ -130,20 +144,6 @@
             <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
             <guid>
                 https://quarkus.io/blog/kafka-avro/
-            </guid>
-        </item>
-        
-        <item>
-            <title>Quarkus 1.8.1.Final released - Bugfixes, RESTEasy Multipart extension</title>
-            <link>
-                https://quarkus.io/blog/quarkus-1-8-1-final-released/
-            </link>
-            <description>
-                Today, we released Quarkus 1.8.1.Final with some bugfixes and documentation improvements. We also introduced a new RESTEasy Multipart extension to fix an recurring encoding issues with multipart. It is a safe upgrade for everyone using 1.8.0.Final. What&#8217;s new? This release is a maintenance release that fixes various bugs found in...
-            </description>
-            <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
-            <guid>
-                https://quarkus.io/blog/quarkus-1-8-1-final-released/
             </guid>
         </item>
         
