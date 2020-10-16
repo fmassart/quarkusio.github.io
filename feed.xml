@@ -5,7 +5,7 @@
         <title>Quarkus</title>
         <link>https://quarkus.io</link>
         <description>Quarkus: Supersonic Subatomic Java</description>
-        <lastBuildDate>Fri, 16 Oct 2020 09:10:55 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 16 Oct 2020 12:18:42 +0000</lastBuildDate>
         
         <item>
             <title>Mutiny - How does retry... retries?</title>
@@ -18,6 +18,20 @@
             <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
             <guid>
                 https://quarkus.io/blog/uni-retry/
+            </guid>
+        </item>
+        
+        <item>
+            <title>Quarkus Tools for IntelliJ 1.2.0 released!</title>
+            <link>
+                https://quarkus.io/blog/intellij-quarkus-tools-1.2.0/
+            </link>
+            <description>
+                We are very pleased to announce the 1.2.0 release of Quarkus Tools for IntelliJ. This release brings enhanced support for Eclipse Microprofile. Eclipse Microprofile Reactive Messaging If your application is based on Eclipse Microprofile Reactive Messaging, properties are enabled for: @Connector annotation @Outgoing annotation @Incoming annotation Here is an example...
+            </description>
+            <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+            <guid>
+                https://quarkus.io/blog/intellij-quarkus-tools-1.2.0/
             </guid>
         </item>
         
@@ -130,20 +144,6 @@
             <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
             <guid>
                 https://quarkus.io/blog/cytech-customer-story/
-            </guid>
-        </item>
-        
-        <item>
-            <title>How to Use Kafka, Schema Registry and Avro with Quarkus</title>
-            <link>
-                https://quarkus.io/blog/kafka-avro/
-            </link>
-            <description>
-                In the Kafka world, Apache Avro is by far the most used serialization protocol. Avro is a data serialization system. Combined with Kafka, it provides schema-based, robust, and fast binary serialization. In this blog post, we will see how you can use Avro with a schema registry in a Quarkus...
-            </description>
-            <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
-            <guid>
-                https://quarkus.io/blog/kafka-avro/
             </guid>
         </item>
         
